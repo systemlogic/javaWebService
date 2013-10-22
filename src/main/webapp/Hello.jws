@@ -1,0 +1,14 @@
+
+public class Hello{
+
+	public String hi(String str){
+		System.out.println("Hi " + str + " !!" );
+		return "Hi " + str + " !!" ;
+	}
+	
+	public int sum(int a, int b){
+		int sum = a + b ;
+		System.out.println("Sum="+sum);
+		return sum;
+	}
+}
